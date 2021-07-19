@@ -1,0 +1,33 @@
+﻿<colors>
+
+	<colorPicker>
+		 <colorName>Branco</colorName>
+		 <colorCode>0xFFFFFF</colorCode>
+		 <colorImage>img/esq02.png</colorImage>
+	</colorPicker>
+
+	<colorPicker>
+		 <colorName>Inox</colorName>
+		 <colorCode>0x888888</colorCode>
+		 <colorImage>img/esq_original.png</colorImage>
+	</colorPicker>
+	
+	<colorPicker>
+		 <colorName>Titanium</colorName>
+		 <colorCode>0x36343A</colorCode>
+		 <colorImage>img/esq04.png</colorImage>
+	</colorPicker>
+
+	<colorPicker>
+		 <colorName>Carvalho</colorName>
+		 <colorCode>0x835830</colorCode>
+		 <colorImage>img/esq01.png</colorImage>
+	</colorPicker>
+
+	<colorPicker>
+		 <colorName>Preto</colorName>
+		 <colorCode>0x000000</colorCode>
+		 <colorImage>img/esq03.png</colorImage>
+	</colorPicker>
+
+</colors>

@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<HTML>
+<HEAD>
+	<TITLE>SimpleSubmit! Installation Instructions</TITLE>
+</HEAD>
+
+<body marginwidth=0 marginheight=0 leftmargin=0 topmargin=0 text="Navy" link="#FF8000" vlink="#FF8000" alink="#00FF00" bgcolor="#FFFFFF">
+<table width=100% cellspacing=0 cellpadding=10 border=0>
+<tr valign=top>
+
+    <td width=20% bgcolor="Navy" height="4255"> <FONT FACE="Arial, Helvetica" SIZE="2"> 
+      </FONT> </td>
+
+    <td width=80% height="4255"> <FONT FACE="Arial, Helvetica" SIZE="2"> 
+      <CENTER>
+        <B> <FONT SIZE="7" COLOR="#00FF00">Cadastre seu Site !</FONT><br>
+        </B>
+</CENTER>
+
+      <p>&nbsp; 
+      <p>
+
+<!--- Begining of the form.  Be sure to change the action value --->
+<!--- to point to submit.cgi on your server. --->
+
+<form action="http://209.41.36.185/cgi-local/submit.cgi" method=POST>
+
+        <table cellspacing=1 cellpadding=1 border=1 width="407">
+          <!--- variable url is where we ask for the URL ---> 
+          <tr valign=top> 
+            <td><b>URL:</b></td>
+            <td> 
+              <input type="text"  SIZE=30 name="url" VALUE="http://">
+            </td>
+          </tr>
+          <!--- variable email is where we ask for the email address ---> 
+          <tr valign=top align="left"> 
+            <td height="23"><b>Email :</b></td>
+            <td height="23"> 
+              <input type="text" SIZE=30 name="email">
+            </td>
+          </tr>
+          <tr valign=top> 
+            <td><b>T&iacute;tulo:</b></td>
+            <td>
+              <input type="text" size=30 name="titulo">
+            </td>
+          </tr>
+          <tr valign=top>
+            <td><b>Descri&ccedil;&atilde;o:</b></td>
+            <td>
+              <input type="text" size=30 name="descricao">
+            </td>
+          </tr>
+          <!--- The action variable controls whether there will be a ---> <!--- confirmation page.  The two allowed values are submit ---> 
+          <!--- and confirm ---> <!--- The thankyou variable controls whether there will be a ---> 
+          <!--- Thank You message.  Allowed values are yes or blank (null) ---> 
+          <tr valign=top> 
+            <td><b>Enviar Email de confirma&ccedil;&atilde;o?</b></td>
+            <td> 
+              <input type="Checkbox" name="thankyou" value="Yes" checked>
+              Sim</td>
+          </tr>
+        </table>
+
+<!--- The engines variable allows you to select which engines --->
+<!--- to use.  If no engines are selected, or there is no --->
+<!--- engines variable on the page, then the default selection --->
+<!--- will be used.  (The default selection is defined in the --->
+<!--- DAT file) --->
+
+<p>
+<table width=100% cellpadding=1 cellspacing=1 border=1>
+<tr valign=top bgcolor="#FF8000">
+            <td><b><font color="#FFFFFF">Sites de Busca</font></b></td>
+            <td><b><font color="#FFFFFF">Opcionais</font></b></td>
+</tr>
+<tr valign=top>
+<td>
+<input type="Checkbox" name="engines" value="altavista" checked><a href="http://altavista.digital.com/">altavista</a><br>
+<input type="Checkbox" name="engines" value="aol" checked><a href="http://netfind.aol.com/">aol</a><br>
+<input type="Checkbox" name="engines" value="excite" checked><a href="http://www.excite.com/">excite</a><br>
+<input type="Checkbox" name="engines" value="hotbot" checked><a href="http://www.hotbot.com/">hotbot</a><br>
+<input type="Checkbox" name="engines" value="infoseek" checked><a href="http://www.infoseek.com/">infoseek</a><br>
+<input type="Checkbox" name="engines" value="lycos" checked><a href="http://www.lycos.com/">lycos</a><br>
+<input type="Checkbox" name="engines" value="nlsearch" checked><a href="http://www.nlsearch.com/">nlsearch</a><br>
+<input type="Checkbox" name="engines" value="planetsearch" checked><a href="http://www.planetsearch.com/">planetsearch</a><br>
+<input type="Checkbox" name="engines" value="webcrawler" checked><a href="http://www.webcrawler.com/">webcrawler</a><br>
+</td>
+<td>
+              <input type="Checkbox" name="engines" value="cade">
+              <a href="http://www.cade.com.br">cade</a><br>
+<input type="Checkbox" name="engines" value="infomak"><a href="http://www.infomak.com/">infomak</a><br>
+<input type="Checkbox" name="engines" value="intersearch-de"><a href="http://www.intersearch.de/">intersearch</a> (.de)<br>
+<input type="Checkbox" name="engines" value="intersearch-au"><a href="http://austria.intersearch.net/">intersearch</a> (.au)<br>
+<input type="Checkbox" name="engines" value="altavista-au"><a href="http://www.altavista.yellowpages.com.au/">altavista</a> (.au)<br>
+<input type="Checkbox" name="engines" value="webwombat"><a href="http://www.webwombat.com/">webwombat</a> (.au .nz)<br>
+<input type="Checkbox" name="engines" value="anzwers"><a href="http://www.anzwers.com/">anzwers</a> (.au .nz)<br>
+<input type="Checkbox" name="engines" value="voila"><a href="http://www.voila.com/">voila</a> (.fr)<br>
+<input type="Checkbox" name="engines" value="euroferret"><a href="http://www.euroferret.com/">euroferret</a><br>
+</td>
+</tr>
+</table>
+
+<p>
+          <input type="submit" value="Enviar seu cadastro">
+
+</form>
+
+<p><hr noshade>
+      <p>&nbsp; 
+      </FONT> </td>
+
+</tr>
+</table>
+</BODY>
+</HTML>

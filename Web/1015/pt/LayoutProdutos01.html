@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Untitled Document</title>
+    <link href="EstilosLayout.css" rel="stylesheet" type="text/css" />
+    <link href="../EstilosSite.css" rel="stylesheet" type="text/css" />
+	
+    <script src="../js/include-funcoes.js" type="text/javascript"></script>
+	
+    <!--Arquivos para a biblioteca JQuery -->
+    <!-- ************************************************************************************** -->
+	<script type="text/javascript" src="../jquery/datepicker/js/jquery-1.8.2.min.js"></script>
+	<!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"> </script--><!--Carregador do servidor (Google). -->
+	<!--script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"> </script--><!--Carregador do servidor (Microsoft). -->
+    <!-- ************************************************************************************** -->
+
+    <!--Arquivos para o componente DatePicker -->
+    <!-- ************************************************************************************** -->
+	<link type="text/css" href="../jquery/datepicker/css/redmond/jquery-ui-1.8.24.custom.css" rel="stylesheet" />
+	<script type="text/javascript" src="../jquery/datepicker/js/jquery-ui-1.8.24.custom.min.js"></script>
+    <!-- ************************************************************************************** -->
+
+    <!--Arquivos para o componente SlimBox 2 -->
+    <!-- ************************************************************************************** -->
+    <link rel="stylesheet" href="../jquery/slimbox2/css/slimbox2.css" type="text/css" media="screen" />
+
+    <!--script type="text/javascript" src="../jquery/slimbox2/js/jquery.js"></script--><!--Já foi adicionado no datepicker. -->
+    <script type="text/javascript" src="../jquery/slimbox2/js/slimbox2-pt.js"></script>
+    <!-- ************************************************************************************** -->
+
+    <!--Arquivos para o componente MaskedInput -->
+    <!-- ************************************************************************************** -->
+    <!--script type="text/javascript" src="../jquery/maskedinput/dist/jquery.maskedinput.js"></script-->
+    <script type="text/javascript" src="../jquery/maskedinput/src/jquery.maskedinput.js"></script>
+    <!-- ************************************************************************************** -->
+
+    <!--Arquivos para o componente CLEditor -->
+    <!-- ************************************************************************************** -->
+    <script type="text/javascript" src="../jquery/cleditor/jquery.cleditor.min.js"></script>
+    <script type="text/javascript" src="../jquery/cleditor/jquery.cleditor.xhtml.min.js"></script>
+    <script type="text/javascript" src="../jquery/cleditor/jquery.cleditor.advancedtable.min.js"></script>
+
+    <script type="text/javascript">
+        //Controles básicos.
+        var CLEditorBasicoControles = "bold italic underline strikethrough | subscript superscript | removeformat | undo redo | link unlink | cut copy paste pastetext | source";
+        var CLEditorBasicoFontes = "Arial,Arial Black,Comic Sans MS,Courier New,Narrow,Garamond,Georgia,Impact,Sans Serif,Serif,Tahoma,Trebuchet MS,Verdana";
+
+        //Controles avançados.
+        var CLEditorAvancadoControles = "bold italic underline strikethrough | subscript superscript | font size " +
+                                        "style | color highlight removeformat | bullets numbering | outdent " +
+                                        "indent | alignleft center alignright justify | undo redo | " +
+                                        "rule image | link unlink | cut copy paste pastetext | table | print source";
+        var CLEditorAvancadoFontes = "Arial,Arial Black,Comic Sans MS,Courier New,Narrow,Garamond,Georgia,Impact,Sans Serif,Serif,Tahoma,Trebuchet MS,Verdana";
+    </script>
+    <link rel="stylesheet" type="text/css" href="../jquery/cleditor/jquery.cleditor.css" />
+    <!-- ************************************************************************************** -->
+	
+	<style type="text/css">
+		
+	</style>
+</head>
+
+<body class="BodyMaster01">
+        <div class="Conteiner01">
+            <div class="PosLayoutCentral01">
+            	<!--Cabeçalho-->
+                <div style="position: relative; display: block; height: 202px;">
+                	<img src="img/logo01.png" alt="Logo Tecnofeal" style="position: absolute; top: 24px;" />
+                    
+                    <!--Redes Sociais-->
+                    <div align="center" style="position: absolute; display: block; top: 23px; left: 840px;">
+                    	<a href="http://www.facebook.com" target="_blank" style="margin-right: 18px;"><img src="img/imgFacebook.png" alt="facebook" /></a>
+                    	<a href="http://www.linkedin.com" target="_blank" style="margin-right: 18px;"><img src="img/imgLinkedin.png" alt="LinkedIn" /></a>
+                    	<a href="http://www.youtube.com" target="_blank" style="margin-right: 18px;"><img src="img/imgYoutube.png" alt="YouTube" /></a>
+                    	<a href="#" target="_blank"><img src="img/imgContato.png" alt="Contato" /></a>
+                    </div>
+                    
+                    <!--Links-->
+                    <div align="center" class="DivSombra01" style="position: absolute; display: block; width: 830px; height: 45px; line-height: 45px; top: 130px; left: 180px; background-color: #ffffff;">
+                    	<a href="#" class="SiteLinks01 SiteLinks01Diagramacao">
+                        	A EMPRESA
+                        </a>
+                    	<a href="#" class="SiteLinks01 SiteLinks01Diagramacao">
+                        	SERVI&Ccedil;OS
+                        </a>
+                    	<a href="#" class="SiteLinks01 SiteLinks01Diagramacao">
+                        	FAEL PRODUTOS
+                        </a>
+                    	<a href="#" class="SiteLinks01 SiteLinks01Diagramacao">
+                        	PORTF&Oacute;LIO
+                        </a>
+                    	<a href="#" class="SiteLinks01 SiteLinks01Diagramacao">
+                        	LAN&Ccedil;AMENTOS
+                        </a>
+                    	<a href="#" class="SiteLinks01 SiteLinks01Diagramacao">
+                        	SHOWROOM
+                        </a>
+                    	<a href="#" class="SiteLinks01 SiteLinks01Diagramacao" style="margin-right: 0px; padding-right: 0px; border-right: 0px solid #808080;">
+                        	CONTATO
+                        </a>
+                    </div>
+                </div>
+            	<!--Cabeçalho-->
+                
+                <div style="position: relative; display: block; height: 1px; background-color: #808080; margin-top: 17px; margin-bottom: 17px;">
+                </div>
+                
+            	<!--Fael Produtos-->
+                <div align="center" class="DivSombra01" style="position: relative; display: block; height: 115px; background-color: #2e4f6a;">
+                	<div style="position: absolute; display: block; top: 30px; left: 36px;">
+                        <img src="img/imgProdutos.png" alt="Feal Produtos" />
+                    </div>
+                    
+                	<div align="right" class="SiteTitulos02" style="position: absolute; display: block; bottom: 26px; right: 30px;">
+                        TIPOLOGIAS DE ESQUADRIAS
+                    </div>
+                </div>
+            	<!--Fael Produtos-->
+                
+            	<!--Conteúdo-->
+              <div style="position: relative; display: block; height: 3315px; margin-top: 30px;">
+                	<!--Linha-->
+                    <div style="position: relative; display: block; height: 375px;">
+                            <!--Box-->
+                            <div style="position: relative; display: block; width: 490px; height: 375px; float: left;">
+                                <div class="DivSombra01" style="position: absolute; display: block; background-color: #ffffff; width: 473px; height: 364px; top: 0px; right: 0px;">
+                                
+                                </div>
+                                <div class="DivSombra01" style="position: absolute; display: block; background-color: #ffffff; width: 150px; height: 35px; top: 13px; left: 0px;">
+                                teste
+                                </div>
+                            </div>
+                            
+                            <!--Box-->
+                            <div style="position: relative; display: block; width: 490px; height: 375px; float: right;">
+                                <div class="DivSombra01" style="position: absolute; display: block; background-color: #ffffff; width: 473px; height: 364px; top: 0px; right: 0px;">
+                                
+                                </div>
+                                <div class="DivSombra01" style="position: absolute; display: block; background-color: #ffffff; width: 150px; height: 35px; top: 13px; left: 0px;">
+                                teste
+                                </div>
+                            </div>
+                        
+                      </div>
+                      <!--Linha-->
+                    
+                <img src="img/produtos01.png" alt="Produtos" />
+                </div>
+            	<!--Categorias Produtos-->
+                
+            	<!--Rodapé-->
+                <div align="center" style="position: relative; display: block; height: 185px; margin-top: 17px; border-top: 1px solid #808080; width: 100%;">
+                    <div class="SiteCopyright" style="position: absolute; display: block; top: 140px; left: 930px;">
+                    	<a href="http://www.trovatacomunicacao.com.br" target="_blank"><img src="img/logoTrovata.png" alt="Trovata" /></a>
+                    </div>
+                
+                    <div class="SiteCopyright" style="position: absolute; display: block; width: 100%; bottom: 20px;">
+                        &copy; 2015 Tecnofeal Esquadrias de Alum&iacute;nio
+                    </div>
+                </div>
+                <!--Rodapé-->
+                
+            </div>
+        </div>
+        <div class="FundoLayout01">
+        
+        </div>
+</body>
+</html>
